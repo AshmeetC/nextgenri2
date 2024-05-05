@@ -3,6 +3,8 @@
 import React from 'react';
 import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
 import { motion } from "framer-motion"
+import Navbar from '@/components/ui/navbar';
+
 const teamMembers = [
   {
     name: 'Amrit Vignesh',
@@ -45,6 +47,7 @@ const teamMembers = [
 export default function Team() {
   return (
     <main className="bg-slate-300 justify-center items-center relative min-h-screen w-screen overflow-x-hidden flex"> {/* Set relative positioning on outer div and use flexbox */}
+    <Navbar />
       <div>
         <div>
           <motion.div
