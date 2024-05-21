@@ -71,8 +71,8 @@ export default function Home() {
           </Link>
 
           <Link
-            key={'About'}
-            href={'/About'}
+            key={'Start'}
+            href={'/GS'}
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-slate-400 hover:dark:border-neutral-700 hover:dark:bg-indigo-800/30"
           >
 
