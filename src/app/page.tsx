@@ -83,7 +83,7 @@ export default function Home() {
               </span>
             </h2>
             <p className="m-0 max-w-[30ch] text-sm opacity-50">
-              Contact us with any questions or pre-register for getting your project published.
+              Apply to be featured in our journal here or contact us with any questions.
             </p>
           </Link>
 
