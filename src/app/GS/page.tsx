@@ -63,7 +63,7 @@ export default function GS() {
             transition={{ ease: "easeInOut", duration: 0.7 }} className="overflow-hidden text-center font-extrabold  leading-normal tracking-normal lg:whitespace-nowrap lg:text-left lg:text-[3.6875rem] ">
             <div>
               <h1 className="text-7xl pb-10 text-center">
-                Contact
+                Apply Here
               </h1>
             </div>
           </motion.div>
@@ -74,8 +74,9 @@ export default function GS() {
             whileInView={{ y:0, opacity: 1}}
             transition={{ ease: "easeInOut", duration: 0.5 }} className="overflow-hidden text-center font-extrabold  leading-normal tracking-normal lg:whitespace-nowrap lg:text-left lg:text-[3.6875rem] ">
             <div>
-                <p className="text-xl pb-10 text-center">Email: - </p>
-                <p className="text-xl pb-10 text-center">Phone: - </p>
+                <h4 className="text-4xl pb-5 text-center">Contact Us</h4>
+                <p className="text-xl pb-5 text-center">Email: nextgenresearchinstitute@gmail.com</p>
+                <p className="text-xl pb-10 text-center">Phone: 346-538-6296</p>
 
             </div>
           </motion.div>
@@ -103,7 +104,7 @@ export default function GS() {
               <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-password">
                 Message
               </label>
-              <textarea rows={10} className="scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar-thin scrollbar-thumb-slate-700 scrollbar-track-slate-300 overflow-y-scroll resize-none appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-message" placeholder="Message" value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
+              <textarea rows={10} className="scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar-thin scrollbar-thumb-slate-700 scrollbar-track-slate-300 overflow-y-scroll resize-none appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-message" placeholder="Include a description for your research and a link to your research paper in the form of a Cloud Drive link (Google Drive, OneDrive, etc...) with sharing permissions set to 'Anyone with the link can view'" value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
               <p className="text-gray-600 text-xs italic text-center">Let us know about any questions or concerns</p>
             </div>
           </div>
