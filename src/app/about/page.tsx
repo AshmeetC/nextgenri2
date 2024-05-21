@@ -1,4 +1,3 @@
-import { TextGenerateEffect } from '@/components/ui/tge2';
 import React from 'react';
 import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
 import Navbar from '@/components/ui/navbar';
