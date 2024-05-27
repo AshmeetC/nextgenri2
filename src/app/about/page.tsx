@@ -4,7 +4,7 @@ import Navbar from '@/components/ui/navbar';
 
 export default function About() {
   return (
-    <div className="relative min-h-screen h-full w-screen overflow-x-hidden">  {/* Set relative positioning on outer div */}
+    <div className="relative min-h-screen h-full w-screen overflow-hidden">  {/* Set relative positioning on outer div */}
             <BackgroundGradientAnimation className="h-full" />  {/* No need for z-index here */}
             <Navbar />
             <div className="z-10 absolute flex h-screen min-screen flex-col items-center justify-center top-0 left-0 right-0 bottom-0 text-4xl px-16">
