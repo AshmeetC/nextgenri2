@@ -54,9 +54,9 @@ export default function GS() {
     //   </form>
     // </div>
 
-    <div className="min-h-screen w-screen flex flex-col justify-center items-center pt-32 pb-16" id="contact">
+    <div className="min-h-screen w-screen flex flex-col justify-center items-center pt-32 pb-16 bg-slate-500" id="contact">
       <Navbar/>
-      <div className='items-center justify-center text-center'>
+      <div className='items-center justify-center text-center px-8'>
         <div className='flex flex-col justify-center items-center lg:w-auto'>
           <motion.div initial={{ width: 0 }}
             whileInView={{ width: "100%" }}

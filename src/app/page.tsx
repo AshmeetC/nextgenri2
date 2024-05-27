@@ -8,10 +8,10 @@ import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen w-screen overflow-x-hidden">  {/* Set relative positioning on outer div */}
-      <BackgroundGradientAnimation className="h-full"/>  {/* No need for z-index here */}
+    <div className="relative h-full w-screen overflow-x-hidden">  {/* Set relative positioning on outer div */}
+      <BackgroundGradientAnimation/>  {/* No need for z-index here */}
 
-      <div className="z-10 absolute flex h-screen min-screen flex-col items-center justify-between top-0 left-0 right-0 bottom-0">
+      <div className="z-10 absolute flex h-screen min-screen flex-col items-center justify md:justify-between top-0 left-0 right-0 bottom-0">
         <div className="w-full z-10 max-w-5xl items-center justify-center font-mono text-sm flex p-2 md:p-10">
           <div>
 

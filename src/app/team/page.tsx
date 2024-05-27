@@ -46,9 +46,9 @@ const teamMembers = [
 
 export default function Team() {
   return (
-    <main className="bg-slate-300 justify-center items-center relative min-h-screen w-screen overflow-x-hidden flex"> {/* Set relative positioning on outer div and use flexbox */}
+    <main className="bg-slate-500 justify-center items-center relative min-h-screen w-screen overflow-x-hidden flex"> {/* Set relative positioning on outer div and use flexbox */}
     <Navbar />
-      <div>
+      <div className="pt-20">
         <div>
           <motion.div
             initial={{ y: 100, opacity: 0 }}
@@ -68,7 +68,7 @@ export default function Team() {
             transition={{ duration: 1.5 }}
           >
 
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 px-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-12">
               {teamMembers.map((member, index) => (
                 <div
                   key={index}
