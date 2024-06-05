@@ -41,21 +41,8 @@ export default function GS() {
   }
 
   return (
-    // <div id="contact" className="h-screen w-screen bg-orange-300">
-    //   <form onSubmit={handleSubmit} method="post">
-    //     <div className="text-3xl text-center">Contact Us</div>
-    //     <label htmlFor="name">Name:</label>
-    //     <input type="text" id="name" name="name" required value={username} onChange={(e) => setName(e.target.value)}/>
-    //     <label htmlFor="email">Email:</label>
-    //     <input type="email" id="email" name="email" required value={email} onChange={(e) => setEmail(e.target.value)}/>
-    //     <label htmlFor="message">Message:</label>
-    //     <textarea id="message" name="message" required value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
-    //     <button type="submit">Submit</button>
-    //   </form>
-    // </div>
-
     <div className="min-h-screen w-screen flex flex-col justify-center items-center pt-32 pb-16 bg-slate-500" id="contact">
-      <Navbar/>
+      <Navbar />
       <div className='items-center justify-center text-center px-8'>
         <div className='flex flex-col justify-center items-center lg:w-auto'>
           <motion.div initial={{ width: 0 }}
@@ -70,14 +57,14 @@ export default function GS() {
         </div>
 
         <div className='flex flex-col justify-center items-center lg:w-auto'>
-          <motion.div initial={{ y:60, opacity: 0}}
-            whileInView={{ y:0, opacity: 1}}
+          <motion.div initial={{ y: 60, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
             transition={{ ease: "easeInOut", duration: 0.5 }} className="overflow-hidden text-center font-extrabold  leading-normal tracking-normal lg:whitespace-nowrap lg:text-left lg:text-[3.6875rem] ">
             <div>
-                <h4 className="text-4xl pb-5 text-center">Contact Us</h4>
-                <p className="text-xl pb-5 text-center">Reach out to us using the form or contact details given below</p>
-                <p className="text-xl pb-5 text-center">Email: nextgenresearchinstitute@gmail.com</p>
-                <p className="text-xl pb-10 text-center">Phone: 346-538-6296</p>
+              <h4 className="text-4xl pb-5 text-center">Contact Us</h4>
+              <p className="text-xl pb-5 text-center">Reach out to us using the form or contact details given below</p>
+              <p className="text-xl pb-5 text-center">Email: nextgenresearchinstitute@gmail.com</p>
+              <p className="text-xl pb-10 text-center">Phone: 346-538-6296</p>
 
             </div>
           </motion.div>
@@ -105,7 +92,7 @@ export default function GS() {
               <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-password">
                 Message
               </label>
-              <textarea rows={10} className="scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar-thin scrollbar-thumb-slate-700 scrollbar-track-slate-300 overflow-y-scroll resize-none appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-message" placeholder="Ask about any inquiries or apply for publication using this form. For applications, include a description for your research and a link to your research paper in the form of a Cloud Drive link (Google Drive, OneDrive, etc...) with sharing permissions set to 'Anyone with the link can view'" value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
+              <textarea rows={10} className="scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar-thin scrollbar-thumb-slate-700 scrollbar-track-slate-300 overflow-y-scroll resize-none appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-message" placeholder="Ask Questions or Apply Here! For applications include three things; 1. Field of Interest, 2. High School, 3. Link to Paper (Anyone Can View)" value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
               <p className="text-gray-600 text-xs italic text-center">Let us know about any questions or concerns</p>
             </div>
           </div>
